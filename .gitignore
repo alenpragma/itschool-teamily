@@ -1,0 +1,60 @@
+# --- Dependencies -----------------------------------------------------------
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# --- Build output -----------------------------------------------------------
+# `node build.js` writes the assembled pages here before you copy them to the
+# project root. The published root *.html files ARE tracked (they are the
+# deployable artifact for static hosts) — only this scratch directory is ignored.
+.build/
+
+# --- Local checks / QA scratch output ---------------------------------------
+# Local screenshot dumps, verification runs and scratch tooling.
+*check/
+*check.js.local
+qc/
+qa_v*/
+shots/
+_shots/
+*.local.html
+
+# --- Logs -------------------------------------------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment / secrets --------------------------------------------------
+.env
+.env.local
+.env.*.local
+
+# --- OS files ---------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editor / IDE folders ---------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# --- Hosting platform local state -------------------------------------------
+.vercel/
+.netlify/
+.cache/
