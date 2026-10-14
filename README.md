@@ -1,4 +1,4 @@
-# Edulife IT School — multi-page site
+## Edulife IT School — multi-page site
 
 A production-ready, multi-page static site built from a single-page design, structured so a
 developer can drop a dynamic backend underneath it without touching the markup.
