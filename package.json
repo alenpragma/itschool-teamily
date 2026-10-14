@@ -8,7 +8,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "node build.js && cp -r .build/. .",
+    "build": "node build.js && cp -r .build/. . [my-framework] build --output public",
     "check": "node check.js",
     "preview": "npx serve .",
     "clean": "rm -rf .build"
